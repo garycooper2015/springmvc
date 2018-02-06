@@ -33,6 +33,16 @@ public class HelloSpringController {
         
         mv.addObject("list1", list1);
         
+        //整数
+        int i = 1;
+        mv.addObject("int1", i);
+        
+        //浮点数
+        float f = 3.45f;
+        mv.addObject("float1",f);
+        
+        
+        
         return mv;
     }
 }	

@@ -24,6 +24,9 @@
         <c:forEach var="item" items="${list1}">
         		${item}<br/>
         </c:forEach>
+        <br/>
+        整数:${int1}<br/>
+        浮点数:${float1}
             
     </center>
 </body>
